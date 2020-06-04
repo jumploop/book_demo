@@ -1,5 +1,5 @@
 """
-WSGI config for django_rest project.
+WSGI config for book_demo project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_rest.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'book_demo.settings')
 
 application = get_wsgi_application()
